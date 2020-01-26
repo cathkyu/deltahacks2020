@@ -1,0 +1,150 @@
+{
+  "Wfp55lMAZXOUhlUQPoYaxrAzAsb2": {
+    "info": {
+      "name": "Jeffrey Wang1",
+      "age": 19,
+      "program": "Computer Science",
+      "live": "Hamilton",
+      "profileURL": "http://images6.fanpop.com/image/photos/38600000/Emilia-Clarke-Photoshot-emilia-clarke-38642439-970-1295.jpg"
+    },
+    "points": {
+      "compost": 30,
+      "waste": 30,
+      "recycling": 30
+    },
+    "history": [
+      {
+        "time": "now",
+        "item": "waste of meal",
+        "category": "waste",
+        "points": "3"
+      },
+      {
+        "time": "now",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      { "time": "now", "item": "banana", "category": "compost", "points": "5" },
+      { "time": "now", "item": "hahaxd", "category": "waste", "points": "1" },
+      { "time": "now", "item": "banana", "category": "waste", "points": "3" },
+      { "time": "now", "item": "banana", "category": "waste", "points": "3" }
+    ]
+  },
+  "YRHPZkM2EhM4O5jejgNrJxL30rz1": {
+    "info": {
+      "name": "Catherine Chen",
+      "age": 19,
+      "program": "Computer Science",
+      "live": "Hamilton",
+      "profileURL": "https://www.thesun.co.uk/wp-content/uploads/2018/12/NINTCHDBPICT000454147460.jpg"
+    },
+    "history": [
+      {
+        "time": "Sun Jan 26 2020 09:28:18",
+        "item": "fork",
+        "category": "waste",
+        "points": "1"
+      },
+      {
+        "time": "Sun Jan 26 2020 09:28:10",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 26 2020 09:28:05",
+        "item": "wrapper",
+        "category": "waste",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 25 2020 23:58:18",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 24 2020 09:28:18",
+        "item": "fork",
+        "category": "waste",
+        "points": "1"
+      },
+      {
+        "time": "Sun Jan 23 2020 09:28:10",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 23 2020 09:28:05",
+        "item": "wrapper",
+        "category": "waste",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 22 2020 23:58:18",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 26 2019 09:28:18",
+        "item": "fork",
+        "category": "waste",
+        "points": "1"
+      },
+      {
+        "time": "Sun Jan 26 2019 09:28:10",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 26 2019 09:28:05",
+        "item": "wrapper",
+        "category": "waste",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 25 2019 23:58:18",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 24 2019 09:28:18",
+        "item": "rice",
+        "category": "compost",
+        "points": "1"
+      },
+      {
+        "time": "Sun Jan 23 2019 09:28:10",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 23 2019 09:28:05",
+        "item": "banana",
+        "category": "compost",
+        "points": "2"
+      },
+      {
+        "time": "Sun Jan 22 2019 23:58:18",
+        "item": "bottle",
+        "category": "recycling",
+        "points": "2"
+      }
+    ]
+  },
+  "YSMTUArqALWyP6vrd9AvF8mvVrb2": {
+    "info": {
+      "name": "Jeffrey Wang",
+      "age": 19,
+      "program": "Computer Science",
+      "live": "Hamilton",
+      "profileURL": "http://images6.fanpop.com/image/photos/38600000/Emilia-Clarke-Photoshot-emilia-clarke-38642439-970-1295.jpg"
+    }
+  }
+}

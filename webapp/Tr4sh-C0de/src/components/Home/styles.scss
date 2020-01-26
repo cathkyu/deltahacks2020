@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+.home {
+  &-con {
+    padding: 0 200px;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #c2e0e0;
+    min-height: 100vh;
+    height: fit-content;
+  }
+}
+.screen {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  &1 {
+    align-items: flex-end;
+  }
+}
+.box {
+  border-radius: 10px;
+  box-shadow: 0 0 8px 2px #0002;
+  margin-bottom: 15px;
+  &1 {
+    &1 {
+      padding: 10px;
+      width: 150px;
+      box-sizing: border-box;
+      margin-right: 15px;
+      flex: 1;
+      height: 90px;
+    }
+    &2 {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      width: 175px;
+      height: 125px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &2 {
+    padding: 10px;
+
+    width: 100%;
+    height: 300px;
+    min-height: 50px;
+  }
+  &3 {
+    &1 {
+      box-sizing: border-box;
+      overflow-y: scroll;
+      height: 275px;
+      flex: 1;
+      margin-right: 15px;
+    }
+    &2 {
+      box-sizing: border-box;
+      padding: 10px;
+      margin-top: 0;
+      height: 275px;
+      width: 275px;
+    }
+  }
+  background-color: #fff;
+}
+.tit {
+  &-con {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    &_img {
+      height: 100%;
+      & > img {
+        height: 100%;
+      }
+    }
+    &_title {
+      font-family: "Bangers";
+      font-size: 30px;
+      text-align: center;
+      line-height: 25px;
+      color: #01b075;
+      &1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        & > span {
+          display: block;
+          font-weight: 200px;
+          font-family: "Bebas Neue";
+          margin-right: -1px;
+          font-size: 0.9em;
+        }
+      }
+      &2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        & > span {
+          display: block;
+          font-weight: 200px;
+          font-style: italic;
+          font-family: "Bebas Neue";
+          font-size: 0.9em;
+          margin-left: -1px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          & > span {
+            display: block;
+            font-weight: 200px;
+            font-style: italic;
+            font-family: "Bebas Neue";
+            font-size: 0.9em;
+            margin-left: -1px;
+            margin-right: 1px;
+            margin-top: 1px;
+          }
+        }
+      }
+      &_img {
+        height: 100%;
+        & > img {
+          height: 100%;
+        }
+      }
+    }
+  }
+  .button {
+    background-color: #01b075;
+    color: white;
+    position: relative;
+    z-index: 1000;
+    padding: 5px;
+    &:hover {
+      background-color: #a3e2cd;
+    }
+    &-title {
+      margin-top: 10px;
+    }
+  }
+  .pb {
+    &-con {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      height: 100%;
+    }
+    &_h1 {
+      text-align: center;
+      color: #01b075;
+      font-family: "Bangers";
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    &_h2 {
+      color: #52c9a1;
+      font-family: "Fjalla One";
+      font-size: 25px;
+      & > img {
+        height: 25px;
+        margin-right: 1px;
+        margin-top: 1px;
+      }
+    }
+  }
+  &_img {
+    height: 100%;
+    & > img {
+      height: 100%;
+    }
+  }
+}
+.button {
+  background-color: #01b075;
+  color: white;
+  padding: 5px;
+  &:hover {
+    background-color: #a3e2cd;
+  }
+  &-title {
+    margin-top: 10px;
+  }
+}
+.pb {
+  &-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  &_h1 {
+    text-align: center;
+    color: #01b075;
+    font-family: "Bangers";
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  &_h2 {
+    color: #52c9a1;
+    font-family: "Fjalla One";
+    font-size: 25px;
+    & > img {
+      height: 25px;
+      margin-right: 5px;
+    }
+  }
+  &-sec {
+    &_con {
+      margin-bottom: 40px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: space-between;
+    }
+    &_p {
+      text-align: end;
+      &oints {
+        font-family: "Fjalla One";
+        font-size: 50px;
+        line-height: 35px;
+      }
+      &t {
+        font-family: "Fjalla One";
+      }
+    }
+  }
+}
+.videocaller {
+  width: 600px;
+  height: 300px;
+  background-color: purple;
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+  &-con {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.EnterCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1.25);
+  justify-content: center;
+  &Input {
+    margin: 10px 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+  }
+  &Button {
+    display: block;
+  }
+}
+.bio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-pic {
+    height: 100%;
+    width: 50px;
+    & > img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &-sec {
+    width: 200px;
+    margin-left: 15px;
+    &_Bold {
+      font-weight: 800;
+    }
+  }
+}
+.th {
+  padding: 10px;
+  font-family: "Fjalla One";
+  color: #01b075;
+
+  &-con {
+    background-color: #a3e2cd55;
+    letter-spacing: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  &1,
+  &4 {
+    width: 200px;
+  }
+  &1 {
+    border-top-left-radius: 10px;
+  }
+  &2 {
+    width: 400px;
+  }
+}
+
+.td {
+  &-con {
+    &:nth-child(odd) {
+      background-color: #a3e2cd55;
+    }
+  }
+  padding: 8px;
+}
+.table {
+  overflow-y: scroll;
+
+  position: relative;
+  height: fit-content;
+}

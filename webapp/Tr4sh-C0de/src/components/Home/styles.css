@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.home-con {
+  padding: 0 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vw;
+  background-color: #c2e0e0;
+  min-height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.screen {
+  width: 100%;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.screen1 {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.box {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 8px 2px #0002;
+          box-shadow: 0 0 8px 2px #0002;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.box11 {
+  padding: 10px;
+  width: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 90px;
+}
+
+.box12 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 175px;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box2 {
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+  min-height: 50px;
+}
+
+.box31 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: scroll;
+  height: 275px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 15px;
+}
+
+.box32 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  margin-top: 0;
+  height: 275px;
+  width: 275px;
+}
+
+.tit-con {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tit-con_img {
+  height: 100%;
+}
+
+.tit-con_img > img {
+  height: 100%;
+}
+
+.tit-con_title {
+  font-family: "Bangers";
+  font-size: 30px;
+  text-align: center;
+  line-height: 25px;
+  color: #01b075;
+}
+
+.tit-con_title1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tit-con_title1 > span {
+  display: block;
+  font-weight: 200px;
+  font-family: "Bebas Neue";
+  margin-right: -1px;
+  font-size: 0.9em;
+}
+
+.tit-con_title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tit-con_title2 > span {
+  display: block;
+  font-weight: 200px;
+  font-style: italic;
+  font-family: "Bebas Neue";
+  font-size: 0.9em;
+  margin-left: -1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tit-con_title2 > span > span {
+  display: block;
+  font-weight: 200px;
+  font-style: italic;
+  font-family: "Bebas Neue";
+  font-size: 0.9em;
+  margin-left: -1px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.tit-con_title_img {
+  height: 100%;
+}
+
+.tit-con_title_img > img {
+  height: 100%;
+}
+
+.tit .button {
+  background-color: #01b075;
+  color: white;
+  position: relative;
+  z-index: 1000;
+  padding: 5px;
+}
+
+.tit .button:hover {
+  background-color: #a3e2cd;
+}
+
+.tit .button-title {
+  margin-top: 10px;
+}
+
+.tit .pb-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.tit .pb_h1 {
+  text-align: center;
+  color: #01b075;
+  font-family: "Bangers";
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.tit .pb_h2 {
+  color: #52c9a1;
+  font-family: "Fjalla One";
+  font-size: 25px;
+}
+
+.tit .pb_h2 > img {
+  height: 25px;
+  margin-right: 1px;
+  margin-top: 1px;
+}
+
+.tit_img {
+  height: 100%;
+}
+
+.tit_img > img {
+  height: 100%;
+}
+
+.button {
+  background-color: #01b075;
+  color: white;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: #a3e2cd;
+}
+
+.button-title {
+  margin-top: 10px;
+}
+
+.pb-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.pb_h1 {
+  text-align: center;
+  color: #01b075;
+  font-family: "Bangers";
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.pb_h2 {
+  color: #52c9a1;
+  font-family: "Fjalla One";
+  font-size: 25px;
+}
+
+.pb_h2 > img {
+  height: 25px;
+  margin-right: 5px;
+}
+
+.pb-sec_con {
+  margin-bottom: 40px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+
+.pb-sec_p {
+  text-align: end;
+}
+
+.pb-sec_points {
+  font-family: "Fjalla One";
+  font-size: 50px;
+  line-height: 35px;
+}
+
+.pb-sec_pt {
+  font-family: "Fjalla One";
+}
+
+.videocaller {
+  width: 600px;
+  height: 300px;
+  background-color: purple;
+}
+
+.videocaller > img {
+  width: 100%;
+  height: 100%;
+}
+
+.videocaller-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.EnterCard {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.EnterCardInput {
+  margin: 10px 0;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 250px;
+}
+
+.EnterCardButton {
+  display: block;
+}
+
+.bio {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bio-pic {
+  height: 100%;
+  width: 50px;
+}
+
+.bio-pic > img {
+  height: 100%;
+  width: 100%;
+}
+
+.bio-sec {
+  width: 200px;
+  margin-left: 15px;
+}
+
+.bio-sec_Bold {
+  font-weight: 800;
+}
+
+.th {
+  padding: 10px;
+  font-family: "Fjalla One";
+  color: #01b075;
+}
+
+.th-con {
+  background-color: #a3e2cd55;
+  letter-spacing: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.th1, .th4 {
+  width: 200px;
+}
+
+.th1 {
+  border-top-left-radius: 10px;
+}
+
+.th2 {
+  width: 400px;
+}
+
+.td {
+  padding: 8px;
+}
+
+.td-con:nth-child(odd) {
+  background-color: #a3e2cd55;
+}
+
+.table {
+  overflow-y: scroll;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+/*# sourceMappingURL=styles.css.map */
