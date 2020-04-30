@@ -1,4 +1,4 @@
-# Tr4sh C0d3
+# Tr4sh C0d3. 
 <img src="./images/logo.jpg">
 
 Connect with us:
